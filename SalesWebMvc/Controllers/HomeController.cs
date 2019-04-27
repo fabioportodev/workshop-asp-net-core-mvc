@@ -17,7 +17,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Fábio Porto é o Engenheiro responsável por esse projeto.";
+            ViewData["email"] = "fabioportodev@gmail.com";
 
             return View();
         }
